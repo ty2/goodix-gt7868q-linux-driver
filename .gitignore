@@ -1,0 +1,9 @@
+.vscode
+
+# compiled files
+*.o
+*.ko
+*.cmd
+*.mod.c
+Module.symvers
+modules.order

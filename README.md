@@ -31,7 +31,7 @@ Adjust the default parameters to address issues with the device:
   
 - The default press-down pressure threshold is higher than palm detection threshold, preventing the cursor movement.  
 - The maximum pressure detection is limited to 1000, even though the device report that supports up to 2000. Modify the `AttrThumbPressureThreshold` accordingly.  
-- If you prefer, you can adjust the touch up and down pressure by setting the `AttrPressureRange` or remove pressure detection altogether by adding `AttrEventCode=-ABS_MT_PRESSURE;-ABS_PRESSURE;.`  
+- If you prefer, you can adjust the touch up and down pressure by setting the `AttrPressureRange` or remove pressure detection altogether by adding `AttrEventCode=-ABS_MT_PRESSURE;-ABS_PRESSURE;`.  
   
 ### Finally
 Restart the display manager.  

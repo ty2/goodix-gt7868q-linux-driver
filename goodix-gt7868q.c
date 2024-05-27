@@ -12,8 +12,8 @@
 static __u8 *goodix_gt7868q_report_fixup(struct hid_device *hdev, __u8 *rdesc, unsigned int *rsize)
 {
     if (rdesc[607] == 0x15) {
-        dev_info(&hdev->dev, "Report descriptor fixup is applied.\n");
         rdesc[607] = 0x25;
+        dev_info(&hdev->dev, "Report descriptor fixup is applied.\n");
     } else {
         dev_info(&hdev->dev, "The byte is not expected for fixing the report descriptor. \
         It's possible that the touchpad firmware is not suitable for applying the fix. \

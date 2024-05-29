@@ -1,9 +1,9 @@
-[Lenovo Thinkbook G6+ Force Touch - Goodix QT7868Q]
+[Lenovo Thinkbook G6+ IMH - Goodix QT7868Q]
 MatchDMIModalias=dmi:bvnLENOVO:*:pvrThinkBook*G6+IMH*:*
+MatchVendor=0x27C6
+MatchProduct=0x01E9
 
 #AttrEventCode=-ABS_MT_PRESSURE;-ABS_PRESSURE;
-#MatchVendor=0x27c6
-#MatchProduct=0x01f0
 AttrPressureRange=2:0
 AttrPalmPressureThreshold=600
 AttrThumbPressureThreshold=1000

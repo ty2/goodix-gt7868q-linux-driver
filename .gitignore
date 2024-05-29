@@ -1,4 +1,5 @@
 .vscode
+.idea
 
 # compiled files
 *.o
@@ -7,3 +8,6 @@
 *.mod.c
 Module.symvers
 modules.order
+
+/aur
+!/aur/PKGBUILD

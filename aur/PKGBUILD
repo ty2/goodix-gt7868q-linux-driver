@@ -3,7 +3,7 @@
 _repo=goodix-gt7868q-linux-driver
 _module_name=goodix-gt7868q
 pkgname=${_module_name}-dkms
-pkgver=r6.4885308
+pkgver=0.1.0.r0.g239ab0f
 pkgrel=1
 pkgdesc="The Goodix GT7868Q kernel modules (DKMS)"
 url="https://github.com/ty2/${_repo}"

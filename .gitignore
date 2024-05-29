@@ -8,3 +8,6 @@
 *.mod.c
 Module.symvers
 modules.order
+
+/aur
+!/aur/PKGBUILD

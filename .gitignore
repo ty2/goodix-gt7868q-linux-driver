@@ -9,5 +9,5 @@
 Module.symvers
 modules.order
 
-/aur
+/aur/*
 !/aur/PKGBUILD

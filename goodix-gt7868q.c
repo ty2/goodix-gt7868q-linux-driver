@@ -25,6 +25,7 @@ static __u8 *goodix_gt7868q_report_fixup(struct hid_device *hdev, __u8 *rdesc, u
 
 static const struct hid_device_id goodix_gt7868q_devices[] = {
     { HID_I2C_DEVICE(I2C_VENDOR_ID_GOODIX, 0x01E9) },
+    { HID_I2C_DEVICE(I2C_VENDOR_ID_GOODIX, 0x01E8) },
     { }
 };
 

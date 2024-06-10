@@ -15,7 +15,7 @@ make
 ### Insert the Module
 Load the module into the kernel using the following command:  
 ```bash
-sudo insmod goodix-qt7868q.ko
+sudo insmod goodix-gt7868q.ko
 ```
   
 ### Apply Libinput Quirks

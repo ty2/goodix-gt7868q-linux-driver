@@ -13,7 +13,7 @@ depends=('dkms')
 makedepends=('git')
 provides=("${_module_name}=${pkgver}")
 conflicts=("${_module_name}")
-source=("git+https://github.com/ty2/${_repo}#tag=0.1.0")
+source=("git+https://github.com/ty2/${_repo}#tag=0.1.1")
 sha256sums=('SKIP')
 
 pkgver() {

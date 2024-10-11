@@ -13,11 +13,19 @@ make
 ## Installation
 
 ### Insert the Module
-Load the module into the kernel using the following command:  
+
+Load the module into the kernel using the following command:
+
 ```bash
 sudo modprobe ./goodix-gt7868q.ko
 ```
-  
+
+To make these changes _persistent on boot_, install the module to the system modules directory:
+
+```bash
+sudo make install-dkms
+```
+
 ### Apply Libinput Quirks
 To improve compatibility with libinput, follow these steps:  
   

@@ -32,7 +32,7 @@ sudo make install-dkms
 
 To improve compatibility with libinput, follow these steps:
 
-Copy the local-overrides.quirks file to /etc/libinput/local-overrides.quirks:
+Copy the `local-overrides.quirks` file to `/usr/share/libinput/60-custom-thinkbookg6p2024imh.quirks`:
 
 ```bash
 sudo make install-quirks

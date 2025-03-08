@@ -1,5 +1,5 @@
-[Lenovo Thinkbook G6+ IMH - Goodix GT7868Q]
-MatchDMIModalias=dmi:bvnLENOVO:*:pvrThinkBook*G6+IMH*:*
+[Lenovo Thinkbook G+ Series - Goodix GT7868Q]
+MatchDMIModalias=dmi:bvnLENOVO:*:pvrThinkBook*G*+I*H*:*
 MatchVendor=0x27C6
 MatchProduct=0x01E9
 

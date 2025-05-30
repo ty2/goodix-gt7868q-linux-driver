@@ -7,3 +7,9 @@ MatchProduct=0x01E9
 AttrPressureRange=2:0
 AttrPalmPressureThreshold=600
 AttrThumbPressureThreshold=1000
+
+[Lenovo ThinkBook 16 G7+ IAH ForcePad]
+MatchName=*GXTP5100*
+MatchDMIModalias=dmi:*svnLENOVO:*pvrThinkBook16G7+IAH*:*
+MatchUdevType=touchpad
+ModelPressurePad=1
